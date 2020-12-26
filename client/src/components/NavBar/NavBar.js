@@ -198,7 +198,7 @@ const NavBar =(props) => {
 
      const authLinks = (
        <>
-         <NavItem className="ThenavItem" >
+         {/* <NavItem className="ThenavItem" > */}
         <Link to="postArticles" className='nav-links' onClick={closeMobileMenu}>    
           <WhiteTextTypography variant='caption' style={{letterSpacing:"3px"}} align='center'>POST</WhiteTextTypography>
         </Link>
@@ -211,10 +211,10 @@ const NavBar =(props) => {
             >
             {user?`Welcome, ${user.username}`: '' }
             </WhiteTextTypography>  */}
-         </NavItem>
+         {/* </NavItem>
          <Nav.Item>
         
-         </Nav.Item>
+         </Nav.Item> */}
        </>
      )
     //  {user?`Welcome, ${user.username}`: '' }

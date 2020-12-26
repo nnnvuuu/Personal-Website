@@ -57,6 +57,12 @@ const useStyles = makeStyles((theme) => ({
  
 }));
 
+const linktoHome = () =>{
+  return(
+    <Link to ="/" />
+  )
+}
+
 function LoginPage(props) {
 
   const [email, setEmail] = useState("");
@@ -86,7 +92,8 @@ function LoginPage(props) {
       //redirect when login successfully.
     if(isAuthenticated){
       props.clearErrors();
-      window.location ="/home";
+      // window.location ="/home";
+      linktoHome();
     }
 
 
