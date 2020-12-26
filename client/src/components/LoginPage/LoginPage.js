@@ -57,11 +57,11 @@ const useStyles = makeStyles((theme) => ({
  
 }));
 
-const linktoHome = () =>{
-  return(
-    <Link to = "/home" />
-  )
-}
+// const linktoHome = () =>{
+//   return(
+//     <Link to = "/home" />
+//   )
+// }
 
 function LoginPage(props) {
 
@@ -93,7 +93,7 @@ function LoginPage(props) {
     if(isAuthenticated){
       props.clearErrors();
       // window.location ="/home";
-      linktoHome();
+      // linktoHome();
     }
 
 
