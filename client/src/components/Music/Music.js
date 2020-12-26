@@ -27,7 +27,7 @@ const options = {
   // preload: true,
   loadAudioErrorPlayNext:true,
   remove: false,
-  preload:true,
+  autoPlay:true,
   showMiniProcessBar:true,
   defaultPosition: {
     top: 80,
