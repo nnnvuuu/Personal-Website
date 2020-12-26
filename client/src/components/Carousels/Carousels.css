@@ -1,0 +1,258 @@
+.carousels{
+display: flex;
+}
+
+
+.carouselItems{
+  height:500px;
+  width:70%;
+  position: relative;
+}
+
+
+.carousel-control-prev-icon{
+  /* margin-left: 300px; */
+  /* left: 200px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; */
+
+}
+.carousel-control-next-icon{
+  /* margin-right: 300px;
+  position: absolute; */
+
+}
+.powapowaImage{
+  height: 300px;
+  width: 35%;
+  /* margin-left: 13.5em; */
+}
+
+.wowakaImage{
+  height: 300px;
+  width: 35%;
+  /* margin-left: 13.5em; */
+}
+
+.words{
+  font-family:"Zhi Mang Xing";
+  margin-top: 1.5rem;
+  letter-spacing:1.5rem;
+  color: white;
+  font-size: 4rem;
+
+ }
+
+.hrMainPage{
+  height: 2px;
+  width:70%;
+  color: #376268;
+  background-color: #376268;
+  border: none;
+  margin-top: 2em;
+}
+
+@media (min-width: 375px) { 
+  .carouselItems{
+    height:300px;
+    width:90%;
+    position: relative;
+  }
+
+  .hrMainPage{
+    height: 2px;
+    width:90%;
+    color: #376268;
+    background-color: #376268;
+    border: none;
+    margin-top: 2em;
+  }
+
+  .powapowaImage{
+    height: 300px;
+    width: 90%;
+    /* margin-left: 13.5em; */
+  }
+  
+  .wowakaImage{
+    height: 300px;
+    width: 90%;
+    /* margin-left: 13.5em; */
+  }
+
+  .words{
+    font-family:"Zhi Mang Xing";
+    margin-top: 1.5rem;
+    letter-spacing:1.5rem;
+    color: white;
+    font-size: 6rem;
+  
+   }
+
+ }
+
+@media (min-width: 576px) { 
+  .carouselItems{
+    height:400px;
+    width:80%;
+    position: relative;
+  }
+  
+
+  .hrMainPage{
+    height: 2px;
+    width:80%;
+    color: #376268;
+    background-color: #376268;
+    border: none;
+    margin-top: 2em;
+  }
+
+  .powapowaImage{
+    height: 300px;
+    width: 80%;
+    /* margin-left: 13.5em; */
+  }
+  
+  .wowakaImage{
+    height: 300px;
+    width: 80%;
+    /* margin-left: 13.5em; */
+  }
+
+  .words{
+    font-family:"Zhi Mang Xing";
+    margin-top: 1.5rem;
+    letter-spacing:0.8rem;
+    color: white;
+    font-size: 3.5rem;
+  
+   }
+  
+ }
+
+
+
+/* 
+// Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .carouselItems{
+    height:500px;
+    width:80%;
+    position: relative;
+  }
+
+  .hrMainPage{
+    height: 2px;
+    width:80%;
+    color: #376268;
+    background-color: #376268;
+    border: none;
+    margin-top: 2em;
+  }
+
+  .powapowaImage{
+    height: 300px;
+    width: 80%;
+    /* margin-left: 13.5em; */
+  }
+  
+  .wowakaImage{
+    height: 300px;
+    width: 80%;
+    /* margin-left: 13.5em; */
+  }
+
+  .words{
+    font-family:"Zhi Mang Xing";
+    margin-top: 1.5rem;
+    letter-spacing:1.5rem;
+    color: white;
+    font-size: 3.5rem;
+  
+   }
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .carouselItems{
+    height:500px;
+    width:70%;
+    position: relative;
+  }
+
+  .hrMainPage{
+    height: 2px;
+    width:70%;
+    color: #376268;
+    background-color: #376268;
+    border: none;
+    margin-top: 2em;
+  }
+
+  .powapowaImage{
+    height: 300px;
+    width: 35%;
+    /* margin-left: 13.5em; */
+  }
+  
+  .wowakaImage{
+    height: 300px;
+    width: 35%;
+    /* margin-left: 13.5em; */
+  }
+
+  .words{
+    font-family:"Zhi Mang Xing";
+    margin-top: 1.5rem;
+    letter-spacing:1.5rem;
+    color: white;
+    font-size: 4rem;
+  
+   }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .carouselItems{
+    height:500px;
+    width:70%;
+    position: relative;
+  }
+
+  .hrMainPage{
+    height: 2px;
+    width:70%;
+    color: #376268;
+    background-color: #376268;
+    border: none;
+    margin-top: 2em;
+  }
+
+  .powapowaImage{
+    height: 300px;
+    width: 35%;
+    /* margin-left: 13.5em; */
+  }
+  
+  .wowakaImage{
+    height: 300px;
+    width: 35%;
+    /* margin-left: 13.5em; */
+  }
+
+  .words{
+    font-family:"Zhi Mang Xing";
+    margin-top: 1.5rem;
+    letter-spacing:1.5rem;
+    color: white;
+    font-size: 6rem;
+
+  
+   }
+ }
+ 
