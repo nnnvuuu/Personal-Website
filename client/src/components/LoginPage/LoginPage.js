@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
 
 const linktoHome = () =>{
   return(
-    <Link to ="/" />
+    <Link to = "/home" />
   )
 }
 
