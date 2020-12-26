@@ -86,7 +86,7 @@ function LoginPage(props) {
       //redirect when login successfully.
     if(isAuthenticated){
       props.clearErrors();
-      window.location ="/";
+      window.location ="/home";
     }
 
 

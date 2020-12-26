@@ -198,7 +198,7 @@ const NavBar =(props) => {
 
      const authLinks = (
        <>
-         <NavItem  >
+         <NavItem className="ThenavItem" >
         <Link to="postArticles" className='nav-links' onClick={closeMobileMenu}>    
           <WhiteTextTypography variant='caption' style={{letterSpacing:"3px"}} align='center'>POST</WhiteTextTypography>
         </Link>
