@@ -5,7 +5,7 @@ const path = require("path");
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 49815;
+const port = process.env.PORT || 5000;
 
 const uri = process.env.ATLAS_URI;
 
@@ -26,15 +26,16 @@ app.use('/articles',articlesRouter);
 app.use('/credentials',credentialRouter);
 
 
+console.log(path.resolve(__dirname, 'client', 'build', 'index.html'));
   // Serve static assets if in production
-  if (process.env.NODE_ENV === 'production') {
+  // if (process.env.NODE_ENV === 'production') {
     // Set static folder
     app.use(express.static('client/build'));
   
     app.get('*', (req, res) => {
       res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
     });
-  }
+  // }
 
 app.listen(port,()=> {
   console.log(`Server is running on port: ${port}`);
