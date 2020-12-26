@@ -44,7 +44,7 @@ class App extends Component{
                  <div>
                  <MainNavBar />
                 <PostForm/>
-                   {/* <Music/> */}
+                   <Music/>
                  </div>
                } />  
               
@@ -54,7 +54,7 @@ class App extends Component{
               <div>
                 <MainNavBar/>
                 <Blog/>
-                {/* <Music/> */}
+                <Music/>
               </div>
             } />  
       
