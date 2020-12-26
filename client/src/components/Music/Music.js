@@ -24,7 +24,7 @@ const options = {
   // audio lists model
   audioLists: audioList1,
   defaultPlayIndex: 0,
-  // preload: true,
+  preload: true,
   loadAudioErrorPlayNext:true,
   remove: false,
   showMiniProcessBar:true,

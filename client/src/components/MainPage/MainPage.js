@@ -9,7 +9,7 @@ const mainPage = () => {
     <div className="outerBox">
         <NavBar/>
         <Carousel/>
-        <Music/>
+        {/* <Music/> */}
     </div>
   );
 };

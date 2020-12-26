@@ -44,7 +44,7 @@ class App extends Component{
                  <div>
                  <MainNavBar />
                 <PostForm/>
-                   <Music/>
+                   {/* <Music/> */}
                  </div>
                } />  
               

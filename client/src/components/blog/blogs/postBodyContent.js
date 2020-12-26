@@ -49,7 +49,7 @@ class PostBodyContent extends Component{
       return(
         <div>
         <MainNavBar/>
-        <Music/>
+        {/* <Music/> */}
         <div className="container mt-4  "  >
               <h1 className="text-center">{this.state.articles.title}</h1>
               <hr/>
