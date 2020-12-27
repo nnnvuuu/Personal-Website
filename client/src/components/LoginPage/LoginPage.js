@@ -88,7 +88,7 @@ function LoginPage(props) {
       //redirect when login successfully.
     if(isAuthenticated){
       props.clearErrors();
-      window.location.href ="/home";
+      window.location.href ="http://www.nenanou.com/home";
       // document.location.href = '/home',true;
      
     }
