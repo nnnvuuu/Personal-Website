@@ -90,7 +90,7 @@ function LoginPage(props) {
       props.clearErrors();
       window.location.href ="www.nenanou.com/home";
       // document.location.href = '/home',true;
-     
+        return;
     }
 
 
