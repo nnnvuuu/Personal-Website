@@ -57,11 +57,7 @@ const useStyles = makeStyles((theme) => ({
  
 }));
 
-// const linktoHome = () =>{
-//   return(
-//     <Link to = "/home" />
-//   )
-// }
+
 
 function LoginPage(props) {
 
@@ -93,7 +89,7 @@ function LoginPage(props) {
     if(isAuthenticated){
       props.clearErrors();
       window.location.href ="home";
-      // linktoHome();
+
     }
 
 
@@ -194,7 +190,7 @@ function LoginPage(props) {
           </Button>
           {props.isAuthenticated? <Alert className="text-center" variant="primary"> {'Login Successfully!'}</Alert>:null }
           
-          {console.log(msg)}
+          {/* {console.log(msg)} */}
            {msg ?<Alert className="text-center" variant="danger">
           {"* "+msg} </Alert>:null}
 
