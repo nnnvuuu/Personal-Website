@@ -13,9 +13,9 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 // import RegisterPage from '../registerPage/registerPage';
-import { useHistory, } from 'react-router'
+
 import axios from 'axios';
-import {Link,Redirect} from 'react-router-dom';
+import {Link,Redirect,useHistory} from 'react-router-dom';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import { LOGIN_SUCCESS, LOGIN_FAIL,} from '../../redux/actions/authAction';
@@ -89,7 +89,8 @@ function LoginPage(props) {
     if(isAuthenticated){
       props.clearErrors();
       // window.location.href ="/home";
-      return <Redirect to='/home'/>
+      // return <Redirect to="/home"/>
+      history.push("/home", { from: "Login" });
       // document.location.href = '/home',true;
         
     }
@@ -138,7 +139,7 @@ function LoginPage(props) {
 
 
   const classes = useStyles();
-  const { push } = useHistory();
+  const history = useHistory();
   return (
     <div>
 
