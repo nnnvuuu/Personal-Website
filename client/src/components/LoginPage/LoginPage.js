@@ -92,13 +92,13 @@ function LoginPage(props) {
       //redirect when login successfully.
     if(isAuthenticated){
       props.clearErrors();
-      // window.location ="/home";
+      window.location.href ="home";
       // linktoHome();
     }
 
 
    
-},[]);
+});
     return ref.current;
   }
 
