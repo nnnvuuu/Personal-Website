@@ -13,9 +13,9 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 // import RegisterPage from '../registerPage/registerPage';
-import { useHistory } from 'react-router'
+import { useHistory, } from 'react-router'
 import axios from 'axios';
-import {Link} from 'react-router-dom';
+import {Link,Redirect} from 'react-router-dom';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import { LOGIN_SUCCESS, LOGIN_FAIL,} from '../../redux/actions/authAction';
@@ -88,7 +88,8 @@ function LoginPage(props) {
       //redirect when login successfully.
     if(isAuthenticated){
       props.clearErrors();
-      window.location.href ="/home";
+      // window.location.href ="/home";
+      return <Redirect to='/home'/>
       // document.location.href = '/home',true;
         
     }
