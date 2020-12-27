@@ -98,7 +98,7 @@ function LoginPage(props) {
 
 
    
-});
+},[]);
     return ref.current;
   }
 
