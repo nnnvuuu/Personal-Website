@@ -33,7 +33,7 @@ const audioList1 = [
 const options = {
   // audio lists model
   audioLists: audioList1,
-  defaultPlayIndex: 0,
+  defaultPlayMode:shufflePlay,
   preload: true,
   loadAudioErrorPlayNext:true,
   remove: false,
