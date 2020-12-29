@@ -34,7 +34,6 @@ const options = {
   // audio lists model
   audioLists: audioList1,
   defaultPlayMode:"shufflePlay",
-  autoPlay:true,
   preload: true,
   loadAudioErrorPlayNext:true,
   remove: false,
