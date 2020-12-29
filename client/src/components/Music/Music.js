@@ -35,6 +35,7 @@ const options = {
   audioLists: audioList1,
   defaultPlayMode:"orderLoop",
   preload: true,
+  defaultPlayIndex: 0,
   loadAudioErrorPlayNext:true,
   remove: false,
   showMiniProcessBar:true,
