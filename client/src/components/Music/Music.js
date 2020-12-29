@@ -7,7 +7,15 @@ import './Music.css';
 
 
 const audioList1 = [
- 
+  {
+    name: '虚拟',
+    singer: '王贰浪',
+    cover:
+      'https://img.bq233.com/upload/2019/1028/5db69eec3da61.jpg',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1608441788/blog%20music/%E8%99%9A%E6%8B%9F_qi7gtr.mp3'
+  
+  },
 
   {
     name: '蒸发',
@@ -19,15 +27,7 @@ const audioList1 = [
   
   },
  
-  {
-    name: '虚拟',
-    singer: '王贰浪',
-    cover:
-      'https://img.bq233.com/upload/2019/1028/5db69eec3da61.jpg',
-    musicSrc:
-      'https://res.cloudinary.com/dgemakazn/video/upload/v1608441788/blog%20music/%E8%99%9A%E6%8B%9F_qi7gtr.mp3'
-  
-  },
+ 
 ]
 
 
@@ -35,7 +35,6 @@ const options = {
   // audio lists model
   audioLists: audioList1,
   defaultPlayMode:"orderLoop",
-  preload: true,
   defaultPlayIndex: 0,
   loadAudioErrorPlayNext:true,
   remove: false,
