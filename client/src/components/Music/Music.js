@@ -16,6 +16,16 @@ const audioList1 = [
       'https://res.cloudinary.com/dgemakazn/video/upload/v1608441788/blog%20music/%E8%99%9A%E6%8B%9F_qi7gtr.mp3'
   
   },
+
+  {
+    name: '蒸发',
+    singer: '好樂團',
+    cover:
+      'https://i1.sndcdn.com/artworks-000209040897-iwpkbn-t500x500.jpg',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1609204535/blog%20music/%E5%A5%BD%E6%A8%82%E5%9C%98_GoodBand%E8%92%B8%E7%99%BC_Demo_buflac.mp3'
+  
+  },
  
 ]
 
