@@ -2,9 +2,8 @@ import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import Carousel from '../Carousels/Carousels';
 import  '../NavBar/NavBar.css';
-import Music from '../Music/Music';
 
-const mainPage = () => {
+const MainPage = () => {
   return (
     <div className="outerBox">
         <NavBar/>
@@ -13,4 +12,4 @@ const mainPage = () => {
   );
 };
 
-export default mainPage;
+export default MainPage;
