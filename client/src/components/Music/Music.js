@@ -38,6 +38,16 @@ const audioList1 = [
   },
  
  
+  {
+    name: '海底',
+    singer: '一支榴莲',
+    cover:
+      'https://i.ytimg.com/vi/v5gK8np-OTA/maxresdefault.jpg',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1609896225/blog%20music/%E6%B5%B7%E5%BA%95-%E4%B8%80%E6%94%AF%E6%A6%B4%E8%8E%B2%E5%90%AC%E6%AD%8C%E8%87%B4%E9%83%81%E4%BD%A0%E7%9A%84%E5%AD%A4%E7%8B%AC%E6%97%A0%E4%BA%BA%E5%8F%AF%E4%BB%A5%E5%88%B0%E8%BE%BE%E5%8A%A8%E6%80%81Lyric%E7%89%B9%E6%95%88%E4%B8%80%E9%A6%96%E8%B6%85%E5%A5%BD%E5%90%AC%E7%9A%84%E8%87%B4%E9%83%81%E7%B3%BB%E6%AD%8C%E6%9B%B2_emo5eq.mp3'
+  
+  },
+ 
 ]
 
 

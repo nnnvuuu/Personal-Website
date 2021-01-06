@@ -48,7 +48,7 @@
      </Nav>
      <Nav>
      {isAuthenticated ? authLinks : guestLinks}
-       <Nav.Link eventKey={2} className={"px-3"} href="#memes">
+       <Nav.Link href="Contact"  className={"px-3"}>
          Contact
        </Nav.Link>
      </Nav>

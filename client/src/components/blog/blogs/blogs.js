@@ -14,6 +14,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import MainNavBar from '../../NavBar/MainNavBar';
 
 //************************************Pagination******************************\\
 //get current posts
@@ -309,10 +310,10 @@ export default class Blog extends Component{
  
 
     return(
-      <div className = "mt-4">
-      
-        <Link to = "/blog"/> 
-        <Container className='tagButton'>
+      <div >
+       <MainNavBar />
+        <Link to = "/blog" /> 
+        <Container className='tagButton mt-4' >
           <Row>
              <Col className = "md-auto">
                <Button variant="outline-dark"  onClick={this.onClickLeetcode}>刷题找工</Button>

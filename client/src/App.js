@@ -21,19 +21,26 @@ import Posts from './components/blog/blogs/Post';
 import MainPage from './components/MainPage/MainPage';
 import MainNavBar from './components/NavBar/MainNavBar';
 import Music from './components/Music/Music';
+import Contact from './components/Contact/Contact';
+
+
 class App extends Component{
 
-  componentDidMount(){
-    store.dispatch(loadUser());
-    
+ 
+componentDidMount(){
+  store.dispatch(loadUser());
+
+  
 }
+
 
   render() {
     return (
       <Fragment>
          <Provider store = {store}>
+         <Music/> 
         <BrowserRouter>
-          <Music/>
+       
           <Switch>
             <Route path = "/" exact component = {MainPage}/> 
          
@@ -41,36 +48,25 @@ class App extends Component{
             <Route path="/home" exact component = {MainPage}/>
          
 
-             <Route  path="/postArticles" render={ props=>
-                 <div>
-                 <MainNavBar />
-                <PostForm/>
-                 </div>
-               } />  
+             <Route  path="/postArticles" exact component = {PostForm} />  
               
            
 
-              <Route path="/blog" render={ props=>
-              <div>
-                <MainNavBar/>
-                <Blog/>
-              </div>
-            } />  
+             <Route path="/blog" exact component = {Blog} />  
       
       
-             <Route path = "/Login" render = { props=>
-                 <div>
-                 <MainNavBar />
-                 <LoginPage/>
-                 </div>
-             }/>
+            <Route path = "/Login"  exact component={ LoginPage}/>
        
 
-          <Route path="/postBodyContent" exact component = {PostBodyContent}/>  
+            <Route path="/postBodyContent" exact component = {PostBodyContent}/>  
+
+
+            <Route path="/Contact" exact component = {Contact}/>  
 
         
 
           </Switch>
+         
         </BrowserRouter>
         </Provider>
       </Fragment>

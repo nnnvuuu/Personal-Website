@@ -13,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 // import RegisterPage from '../registerPage/registerPage';
-
+import MainNavBar from '../NavBar/MainNavBar';
 import axios from 'axios';
 import {Link,Redirect,useHistory} from 'react-router-dom';
 import {connect} from 'react-redux';
@@ -142,7 +142,7 @@ function LoginPage(props) {
   const history = useHistory();
   return (
     <div>
-
+    <MainNavBar />
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>

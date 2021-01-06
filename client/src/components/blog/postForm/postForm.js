@@ -6,6 +6,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { Form, Button, Col, Row, Badge} from 'react-bootstrap';
 import MarkdownEditor from './markdownEditor';
 import MDEditor from '@uiw/react-md-editor';
+import MainNavBar from '../../NavBar/MainNavBar';
 
 // import {FormGroup,Label,Input} from 'reactstrap';
 
@@ -325,7 +326,7 @@ export default class PostFrom extends Component{
      
     return(
       <div>
-
+      <MainNavBar />
       <Form onSubmit = {this.onSubmit}>
       <h1 className="text-center">Blog Post</h1>
       <hr />
