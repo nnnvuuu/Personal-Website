@@ -19,6 +19,14 @@ connection.once('open', ()=>{
 })
 
 
+// This endpoint is pinged every 5 mins by uptimerobot.com to prevent 
+// free services like Heroku and Now.sh from letting the app go to sleep.
+// This endpoint is also pinged every time the client starts in the 
+// componentDidMount of App.js. Once the app is confirmed to be up, we allow 
+// the user to perform actions on the client.
+app.get('/wake-up', (req, res) => res.json('👌'))
+
+
 const articlesRouter = require('./routes/articles');
 const credentialRouter = require('./routes/credentials');
 

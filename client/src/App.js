@@ -26,8 +26,18 @@ import Contact from './components/Contact/Contact';
 
 class App extends Component{
 
+  state = {
+    loading: true
+  }
  
 componentDidMount(){
+  fetch(`/wake-up`)
+      .then(res => res.json())
+      .then(() => {
+        this.setState({ loading: false })
+      })
+      .catch(err => console.log(err))
+
   store.dispatch(loadUser());
 
   
