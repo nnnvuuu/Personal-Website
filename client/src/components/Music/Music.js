@@ -101,7 +101,7 @@ const audioList1 = [
 
   },
 
-
+  
   {
 
     name: 'old time was gold',
@@ -110,6 +110,34 @@ const audioList1 = [
       'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b627f8c8-2fa4-41f4-9325-cab7cf2da81e/d71xeup-0b637170-719f-4c16-aa33-c5fb19ba3dbc.png/v1/fill/w_1024,h_725,strp/alternate_studio_ghibli_logo_by_rfwu_d71xeup-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjUiLCJwYXRoIjoiXC9mXC9iNjI3ZjhjOC0yZmE0LTQxZjQtOTMyNS1jYWI3Y2YyZGE4MWVcL2Q3MXhldXAtMGI2MzcxNzAtNzE5Zi00YzE2LWFhMzMtYzVmYjE5YmEzZGJjLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZOn7TlmHlwRT5_A0yrXFtN8SFIk8rdisHAwAxD50cfo',
     musicSrc:
       'https://res.cloudinary.com/dgemakazn/video/upload/v1612287767/blog%20music/coding_sleeping/yt1s.com_-_Stunning_Studio_Ghibli_Soundtracks_gg7knm.mp3'
+
+  },
+
+  
+
+  {
+
+    name: 'ｄｅｃｅｐｔｉｏｎ',
+    singer: '?',
+    musicSrc: 'https://res.cloudinary.com/dgemakazn/video/upload/v1612766368/blog%20music/coding_sleeping/%EF%BD%84%EF%BD%85%EF%BD%83%EF%BD%85%EF%BD%90%EF%BD%94%EF%BD%89%EF%BD%8F%EF%BD%8E_tbxxsp.mp3'
+
+  },
+
+  {
+
+    name: 'ＨＥＡＲＴＢＲＯＫＥＮ',
+    singer: '?',
+    musicSrc: 'https://res.cloudinary.com/dgemakazn/video/upload/v1612766545/blog%20music/coding_sleeping/%EF%BC%A8%EF%BC%A5%EF%BC%A1%EF%BC%B2%EF%BC%B4%EF%BC%A2%EF%BC%B2%EF%BC%AF%EF%BC%AB%EF%BC%A5%EF%BC%AE_igzdgk.mp3'
+
+  },
+
+
+
+  {
+
+    name: 'J E A L O U S Y',
+    singer: '?',
+    musicSrc: 'https://res.cloudinary.com/dgemakazn/video/upload/v1612766752/blog%20music/coding_sleeping/J_E_A_L_O_U_S_Y_pxijem.mp3'
 
   },
  
