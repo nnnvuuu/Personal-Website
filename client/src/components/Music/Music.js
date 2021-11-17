@@ -61,11 +61,9 @@ const audioList1 = [
   },
 
 
-  
-  
   {
-    name: 'One Last Kiss',
-    singer: "._.",
+    name: '宇航员',
+    singer: "ARIS",
     cover:
       'https://img.youtube.com/vi/b1mU4zH-p8Q/hqdefault.jpg',
     musicSrc:
