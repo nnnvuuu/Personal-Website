@@ -48,15 +48,7 @@ const audioList1 = [
   
   },
 
-  {
-    name: '秦皇岛',
-    singer: '万能青年旅店',
-    cover:
-      'https://lh3.googleusercontent.com/proxy/pAUl4PgA7Zb5zuYN0FY7eBw2zez8tsi-2-tQ1O5-GpGseKKLhScYT_WJaj85ImyFkwv83qRsMpsnPYNbo18xrijsnBASJF_cevFqAmHlgQ',
-    musicSrc:
-      'https://res.cloudinary.com/dgemakazn/video/upload/v1611205771/blog%20music/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97_%E7%A7%A6%E7%9A%87%E5%B3%B6_lyrics_dayqll.mp3'
-  
-  },
+
 
   {
     name: 'One Last Kiss',
@@ -65,6 +57,31 @@ const audioList1 = [
       'https://www.otaquest.com/wp-content/uploads/2021/03/One-Last-Kiss-TOP.jpg',
     musicSrc:
       'https://res.cloudinary.com/dgemakazn/video/upload/v1631254430/blog%20music/One_Last_Kiss_ijxptz.mp3'
+  
+  },
+
+
+  
+  
+  {
+    name: 'One Last Kiss',
+    singer: "._.",
+    cover:
+      'https://img.youtube.com/vi/b1mU4zH-p8Q/hqdefault.jpg',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1637112924/blog%20music/%E5%86%8D%E8%A7%81_wntqlt.mp3'
+  
+  },
+
+
+
+  {
+    name: '秦皇岛',
+    singer: '万能青年旅店',
+    cover:
+      'https://lh3.googleusercontent.com/proxy/pAUl4PgA7Zb5zuYN0FY7eBw2zez8tsi-2-tQ1O5-GpGseKKLhScYT_WJaj85ImyFkwv83qRsMpsnPYNbo18xrijsnBASJF_cevFqAmHlgQ',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1611205771/blog%20music/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97_%E7%A7%A6%E7%9A%87%E5%B3%B6_lyrics_dayqll.mp3'
   
   },
  
