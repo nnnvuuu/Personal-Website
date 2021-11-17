@@ -63,7 +63,7 @@ const audioList1 = [
 
   {
     name: '宇航员',
-    singer: "ARIS",
+    singer: "めありー",
     cover:
       'https://img.youtube.com/vi/b1mU4zH-p8Q/hqdefault.jpg',
     musicSrc:
