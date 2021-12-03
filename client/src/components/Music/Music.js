@@ -4,7 +4,7 @@ import 'react-jinke-music-player/assets/index.css'
 import { light } from '@material-ui/core/styles/createPalette';
 import './Music.css';
 import Her from '../Music/images/her.jpg';
-import friends from '../Music/images/unnnamed.jpg';
+import friends from '../Music/images/unnamed.jpg';
 
 
 const audioList1 = [
