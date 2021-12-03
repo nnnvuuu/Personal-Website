@@ -3,7 +3,7 @@ import ReactJkMusicPlayer from 'react-jinke-music-player'
 import 'react-jinke-music-player/assets/index.css'
 import { light } from '@material-ui/core/styles/createPalette';
 import './Music.css';
-import her from '../Music/images/her.jpg';
+import Her from '../Music/images/her.jpg';
 
 
 const audioList1 = [
@@ -63,9 +63,9 @@ const audioList1 = [
     name: '重要的事物就在眼睑之下闪烁',
     singer: 'Kokia',
     cover:
-      {her},
+      {Her},
     musicSrc:
-      'https://res.cloudinary.com/dgemakazn/video/upload/v1638524019/blog%20music/%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E7%89%A9%E5%B0%B1%E5%9C%A8%E7%9C%BC%E7%9D%91%E4%B9%8B%E4%B8%8B%E9%97%AA%E7%83%81_ki2quj.mp3'
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638525401/blog%20music/%E5%A4%A7%E4%BA%8B%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E7%9B%AE%E8%93%8B%E3%81%AE%E8%A3%8F_1_tqr7sg.mp3'
   
   },
 
