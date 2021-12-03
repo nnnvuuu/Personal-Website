@@ -36,6 +36,14 @@ const audioList1 = [
       'https://res.cloudinary.com/dgemakazn/video/upload/v1609608039/blog%20music/%E9%82%84%E9%A1%98_-_%E9%82%84%E9%A1%98_ixitqx.mp3'
   
   },
+
+  {
+    name: '离歌',
+    singer: '草东没有派对',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638522398/blog%20music/%E7%A6%BB%E6%AD%8C-%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9_as1rcq.wav'
+  
+  },
  
  
   {
@@ -47,6 +55,18 @@ const audioList1 = [
       'https://res.cloudinary.com/dgemakazn/video/upload/v1609896225/blog%20music/%E6%B5%B7%E5%BA%95-%E4%B8%80%E6%94%AF%E6%A6%B4%E8%8E%B2%E5%90%AC%E6%AD%8C%E8%87%B4%E9%83%81%E4%BD%A0%E7%9A%84%E5%AD%A4%E7%8B%AC%E6%97%A0%E4%BA%BA%E5%8F%AF%E4%BB%A5%E5%88%B0%E8%BE%BE%E5%8A%A8%E6%80%81Lyric%E7%89%B9%E6%95%88%E4%B8%80%E9%A6%96%E8%B6%85%E5%A5%BD%E5%90%AC%E7%9A%84%E8%87%B4%E9%83%81%E7%B3%BB%E6%AD%8C%E6%9B%B2_emo5eq.mp3'
   
   },
+
+
+  {
+    name: '重要的事物就在眼睑之下闪烁',
+    singer: 'Kokia',
+    cover:
+      'https://b-ssl.duitang.com/uploads/item/201408/01/20140801211332_L3hER.thumb.700_0.jpeg',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638523420/blog%20music/%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E7%89%A9%E5%B0%B1%E5%9C%A8%E7%9C%BC%E7%9D%91%E4%B9%8B%E4%B8%8B%E9%97%AA%E7%83%81_znads4.wav'
+  
+  },
+
 
 
 
