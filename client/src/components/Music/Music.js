@@ -4,6 +4,7 @@ import 'react-jinke-music-player/assets/index.css'
 import { light } from '@material-ui/core/styles/createPalette';
 import './Music.css';
 import Her from '../Music/images/her.jpg';
+import friends from '../Music/images/unnnamed.jpg';
 
 
 const audioList1 = [
@@ -63,8 +64,7 @@ const audioList1 = [
     name: '重要的事物就在眼睑之下闪烁',
     singer: 'Kokia',
     cover:
-      'https://c-ssl.duitang.com/uploads/item/201911/10/20191110173457_mwbol.png',
-    musicSrc:
+     {friends},
       'https://res.cloudinary.com/dgemakazn/video/upload/v1638525401/blog%20music/%E5%A4%A7%E4%BA%8B%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E7%9B%AE%E8%93%8B%E3%81%AE%E8%A3%8F_1_tqr7sg.mp3'
   
   },
