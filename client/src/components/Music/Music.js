@@ -101,7 +101,7 @@ const audioList1 = [
     name: '秦皇岛',
     singer: '万能青年旅店',
     cover:
-      'https://lh3.googleusercontent.com/proxy/pAUl4PgA7Zb5zuYN0FY7eBw2zez8tsi-2-tQ1O5-GpGseKKLhScYT_WJaj85ImyFkwv83qRsMpsnPYNbo18xrijsnBASJF_cevFqAmHlgQ',
+      'https://miro.medium.com/max/6684/0*sP3CIVDRCGva0Lxk',
     musicSrc:
       'https://res.cloudinary.com/dgemakazn/video/upload/v1611205771/blog%20music/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97_%E7%A7%A6%E7%9A%87%E5%B3%B6_lyrics_dayqll.mp3'
   
