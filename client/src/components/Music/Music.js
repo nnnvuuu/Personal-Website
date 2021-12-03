@@ -64,7 +64,7 @@ const audioList1 = [
     name: '重要的事物就在眼睑之下闪烁',
     singer: 'Kokia',
     cover:
-     {friends},
+     'http://pic1.cdncl.net/game/370/d32cf68314848e8cf64fd0980bd7d880.jpg',
       'https://res.cloudinary.com/dgemakazn/video/upload/v1638525401/blog%20music/%E5%A4%A7%E4%BA%8B%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E7%9B%AE%E8%93%8B%E3%81%AE%E8%A3%8F_1_tqr7sg.mp3'
   
   },
