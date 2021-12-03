@@ -3,7 +3,7 @@ import ReactJkMusicPlayer from 'react-jinke-music-player'
 import 'react-jinke-music-player/assets/index.css'
 import { light } from '@material-ui/core/styles/createPalette';
 import './Music.css';
-
+import her from '../Music/images/her.jpg';
 
 
 const audioList1 = [
@@ -40,8 +40,10 @@ const audioList1 = [
   {
     name: '离歌',
     singer: '草东没有派对',
+    cover:
+      'https://mocah.org/thumbs/5399787-tree-woodland-forest-dark-night-sky-stars-milky-way-black-black-and-white-silhouette-hill-night-sky-startrail-minimalistic-astrophotography-free-stock-photos.jpg',
     musicSrc:
-      'https://res.cloudinary.com/dgemakazn/video/upload/v1638522398/blog%20music/%E7%A6%BB%E6%AD%8C-%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9_as1rcq.wav'
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638524419/blog%20music/%E7%A6%BB%E6%AD%8C-%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9_ypy13m.mp3'
   
   },
  
@@ -61,9 +63,9 @@ const audioList1 = [
     name: '重要的事物就在眼睑之下闪烁',
     singer: 'Kokia',
     cover:
-      'https://b-ssl.duitang.com/uploads/item/201408/01/20140801211332_L3hER.thumb.700_0.jpeg',
+      {her},
     musicSrc:
-      'https://res.cloudinary.com/dgemakazn/video/upload/v1638523420/blog%20music/%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E7%89%A9%E5%B0%B1%E5%9C%A8%E7%9C%BC%E7%9D%91%E4%B9%8B%E4%B8%8B%E9%97%AA%E7%83%81_znads4.wav'
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638524019/blog%20music/%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E7%89%A9%E5%B0%B1%E5%9C%A8%E7%9C%BC%E7%9D%91%E4%B9%8B%E4%B8%8B%E9%97%AA%E7%83%81_ki2quj.mp3'
   
   },
 
