@@ -4,7 +4,7 @@ import 'react-jinke-music-player/assets/index.css'
 import { light } from '@material-ui/core/styles/createPalette';
 import './Music.css';
 import Her from '../Music/images/her.jpg';
-import friends from '../Music/images/unnamed.jpg';
+import friends from '../Music/images/angel_beats.jpg';
 
 
 const audioList1 = [
@@ -91,6 +91,18 @@ const audioList1 = [
       'https://img.youtube.com/vi/b1mU4zH-p8Q/hqdefault.jpg',
     musicSrc:
       'https://res.cloudinary.com/dgemakazn/video/upload/v1637112924/blog%20music/%E5%86%8D%E8%A7%81_wntqlt.mp3'
+  
+  },
+
+
+
+  {
+    name: '最珍贵的宝物',
+    singer: 'LiSA',
+    cover:
+      {friends},
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638774759/blog%20music/yui_final_ver_-2792802935442528566_rtcfpg.mp3'
   
   },
 
