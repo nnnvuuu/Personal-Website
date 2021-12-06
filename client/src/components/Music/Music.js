@@ -64,7 +64,7 @@ const audioList1 = [
     name: '重要的事物就在眼睑之下闪烁',
     singer: 'Kokia',
     cover:
-     'https://i.warosu.org/data/jp/img/0104/32/1359964756593.jpg',
+     {Her},
      musicSrc:
       'https://res.cloudinary.com/dgemakazn/video/upload/v1638525401/blog%20music/%E5%A4%A7%E4%BA%8B%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E7%9B%AE%E8%93%8B%E3%81%AE%E8%A3%8F_1_tqr7sg.mp3'
   
@@ -95,7 +95,15 @@ const audioList1 = [
   },
 
   
-
+  {
+    name: '温柔',
+    singer: '五月天',
+    cover:
+      'https://static.careerengine.us/api/aov2/https%3A_%7C__%7C_mmbiz.qpic.cn_%7C_mmbiz_jpg_%7C_dHoZLEfqfQL8DLbzoqk8YIHGJicNRydg3bo7SRQONgu3SIaQUwsibdTQwxTn3foO7booND3MQq9PX7778B2eMHKA_%7C_640%3Fwx_fmt%3Djpeg',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638774069/blog%20music/mayday_tenderness_official_music_video_-1743330829090659202_iw0m5y.mp3'
+  
+  },
 
 
   {
