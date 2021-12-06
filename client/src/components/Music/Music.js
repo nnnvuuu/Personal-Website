@@ -5,7 +5,7 @@ import { light } from '@material-ui/core/styles/createPalette';
 import './Music.css';
 import Her from '../Music/images/her.jpg';
 import light from '../Music/images/light.jpg';
-import friends from '../Music/images/angel_beats.jpg';
+import friends from '../Music/images/friends.jpg';
 
 
 const audioList1 = [
