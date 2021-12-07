@@ -84,7 +84,7 @@ const Carousels = () => {
       >
       衣不如新  人不如旧
       </WhiteTextTypography> */}
-      {/* <h1 className="words text-center" >  衣不如新  人不如旧 </h1> */}
+      <h1 className="words text-center" >  </h1>
     </div>  
 
 
