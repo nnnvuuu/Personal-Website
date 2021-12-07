@@ -87,7 +87,7 @@ const audioList1 = [
 
   {
     name: 'One Last Kiss',
-    singer: "._.",
+    singer: "宇多田光",
     cover:
       'https://www.otaquest.com/wp-content/uploads/2021/03/One-Last-Kiss-TOP.jpg',
     musicSrc:
