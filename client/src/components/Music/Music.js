@@ -49,6 +49,16 @@ const audioList1 = [
   
   },
  
+
+  
+  {
+    name: '废柴',
+    singer: '华北浪革',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638848432/blog%20music/%E5%8D%8E%E5%8C%97%E6%B5%AA%E9%9D%A9-%E5%BA%9F%E6%9F%B4_%E4%BD%A0%E5%9C%A8%E6%95%85%E5%AE%AB%E5%BC%80%E5%A4%A7%E5%A5%94_%E6%88%91%E5%9C%A8%E5%86%9C%E6%9D%91%E9%AA%91%E7%94%B5%E5%8A%A8_1_nxh3ue.mp4'
+  
+  },
+
  
   {
     name: '海底',
@@ -128,6 +138,18 @@ const audioList1 = [
       'https://res.cloudinary.com/dgemakazn/video/upload/v1611205771/blog%20music/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97_%E7%A7%A6%E7%9A%87%E5%B3%B6_lyrics_dayqll.mp3'
   
   },
+
+
+
+    
+  {
+    name: 'dSa3z5addd2k',
+    singer: 'dskadosdjasoj',
+    musicSrc:
+      'https://res.cloudinary.com/dgemakazn/video/upload/v1638849572/blog%20music/adsfsdfds_jzbzbt.mp3'
+  
+  },
+
  
 
 
