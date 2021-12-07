@@ -54,7 +54,7 @@ const audioList1 = [
   {
     name: '废柴',
     singer: '华北浪革',
-    cover:'',
+    cover:{friends},
     musicSrc:
       'https://res.cloudinary.com/dgemakazn/video/upload/v1638848432/blog%20music/%E5%8D%8E%E5%8C%97%E6%B5%AA%E9%9D%A9-%E5%BA%9F%E6%9F%B4_%E4%BD%A0%E5%9C%A8%E6%95%85%E5%AE%AB%E5%BC%80%E5%A4%A7%E5%A5%94_%E6%88%91%E5%9C%A8%E5%86%9C%E6%9D%91%E9%AA%91%E7%94%B5%E5%8A%A8_1_nxh3ue.mp4'
   
@@ -133,7 +133,7 @@ const audioList1 = [
   {
     name: 'dSa3z5addd2k',
     singer: 'dskadosdjasoj',
-    cover:'',
+    cover:{friends},
     musicSrc:
       'https://res.cloudinary.com/dgemakazn/video/upload/v1638849572/blog%20music/adsfsdfds_jzbzbt.mp3'
   
