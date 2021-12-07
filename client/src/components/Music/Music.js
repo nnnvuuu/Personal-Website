@@ -4,7 +4,7 @@ import 'react-jinke-music-player/assets/index.css'
 import { light } from '@material-ui/core/styles/createPalette';
 import './Music.css';
 import Her from '../Music/images/her.jpg';
-import light from '../Music/images/light.jpg';
+import lights from '../Music/images/light.jpg';
 import friends from '../Music/images/friends.jpg';
 
 
@@ -121,7 +121,7 @@ const audioList1 = [
     name: '温柔',
     singer: '五月天',
     cover:
-      {light},
+      {lights},
     musicSrc:
       'https://res.cloudinary.com/dgemakazn/video/upload/v1638774069/blog%20music/mayday_tenderness_official_music_video_-1743330829090659202_iw0m5y.mp3'
   
