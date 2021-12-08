@@ -74,7 +74,7 @@ const footer =() => {
           <hr className = "footerHr"/>
           
         <h5 className="footerWords">
-        This project is built it with 
+        我喜欢我的懦弱，痛苦和难堪也喜欢。喜欢夏天的光照，风的气息，蝉的鸣叫，喜欢这些，喜欢得不得了。
       <div>
         <Image className = {"builtByImages"} src = {Coffee}/>
         <Image className = {"plus"} src  ={Plus}/>
