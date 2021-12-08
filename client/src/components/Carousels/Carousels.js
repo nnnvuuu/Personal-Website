@@ -84,7 +84,7 @@ const Carousels = () => {
       >
       衣不如新  人不如旧
       </WhiteTextTypography> */}
-      <h1 className="words text-center" >  </h1>
+      <h1 className="words text-center" > 那就珍惜当下 却也不辜负瞬间 </h1>
     </div>  
 
 
